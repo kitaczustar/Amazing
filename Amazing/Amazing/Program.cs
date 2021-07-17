@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace Amazing.Cmd
+namespace Amazing
 {
-    public class Program
+    class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.WriteLine("Witaj w świecie gry Amazing!");
@@ -51,7 +51,7 @@ namespace Amazing.Cmd
             Console.WriteLine("2-JezioroWspomnień");
             Console.WriteLine("3-LiściasteWzgórze");
             Console.WriteLine("4-SnowCity)");
-            
+
             var lokalizacja = Console.ReadLine();
 
             if (lokalizacja == "4")
